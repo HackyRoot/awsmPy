@@ -3,8 +3,6 @@
 
 
 ## Numbers
----
-
 - [ ] Find PI to the Nth Digit - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
 - [ ] Find e to the Nth Digit - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
@@ -53,7 +51,6 @@
 <br>
 
 ## Classic Algorithms
----
 
 - [ ] Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.
 
@@ -67,7 +64,6 @@
 <br>
 
 ## Graph
----
 - [ ] Graph from links - Create a program that will create a graph or network from a series of links.
 
 - [ ] Eulerian Path - Create a program which will take as an input a graph and output either a Eulerian path or a Eulerian cycle, or state that it is not possible. A Eulerian Path starts at one node and traverses every edge of a graph through every node and finishes at another node. A Eulerian cycle is a eulerian Path that starts and finishes at the same node.
@@ -82,14 +78,12 @@
 <br>
 
 ## Data Structures
----
 - [ ] Inverted index - An Inverted Index is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
 <br>
 <br>
 
 ## Text
----
 - [ ] Fizz Buzz - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
 - [ ] Reverse a String - Enter a string and the program will reverse it and print it out.
@@ -118,7 +112,6 @@
 <br>
 
 ## Networking
----
 - [ ] FTP Program - A file transfer program which can transfer files back and forth from a remote web sever.
 
 - [ ] Bandwidth Monitor - A small utility program that tracks how much data you have uploaded and downloaded from the net during the course of your current online session. See if you can find out what periods of the day you use more and less and generate a report or graph that shows it.
@@ -137,7 +130,6 @@
 <br>
 
 ## Classes
----
 - [ ] Product Inventory Project - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
 
 - [ ] Airline / Hotel Reservation System - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
@@ -162,7 +154,6 @@
 <br>
 
 ## Threading
----
 - [ ] Create A Progress Bar for Downloads - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
 
 - [ ] Bulk Thumbnail Creator - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
@@ -171,7 +162,6 @@
 <br>
 
 ## Web
----
 - [ ] Page Scraper - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.
 
 - [ ] Online White Board - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. Optional: Add feature to invite friends to collaborate on a white board online.
@@ -194,7 +184,6 @@
 <br>
 
 ## Files
----
 - [ ] Quiz Maker - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
 
 - [ ] Sort Excel/CSV File Utility - Reads a file of records, sorts them, and then writes them back to the file. Allow the user to choose various sort style and sorting based on a particular field.
@@ -211,7 +200,6 @@
 <br>
 
 ## Databases
----
 - [ ] SQL Query Analyzer - A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
 
 - [ ] Remote SQL Tool - A utility that can execute queries on remote servers from your local computer across the Internet. It should take in a remote host, user name and password, run the query and return the results.
@@ -229,8 +217,7 @@
 <br>
 <br>
 
-## Graphics and Multimedia
----
+## Graphics and Multimedia 
 - [ ] Slide Show - Make an application that shows various pictures in a slide show format. Optional: Try adding various effects like fade in/out, star wipe and window blinds transitions.
 
 - [ ] Stream Video from Online - Try to create your own online streaming video player.
@@ -247,6 +234,5 @@
 <br>
 
 ## Security
----
 
 - [ ] Caesar cipher - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
