@@ -1,5 +1,5 @@
 # awsmPy
-> Cool project created using Python
+> Cool projects which you can implement using Python
 
 <br>
 <br>
